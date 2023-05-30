@@ -28,6 +28,10 @@ nav a {
     padding: 0 1.5rem;
 }
 
+nav a:hover {
+    color: #fff;
+}
+
 .hero {
     background: #fdcc04;
 }
@@ -86,3 +90,8 @@ button:hover {
     height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    .hero-container{
+        grid-template-columns: 1fr;
+    }
+}
